@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Books</string>
+    <string name="welcome_message">Welcome to Books app</string>
+    <string name="search_hint">Search for a book</string>
+    <string name="credit_text">Developed by Anes Abismail</string>
+    <string name="no_books">No books found.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="title">Title:</string>
+    <string name="simple_title">Android for Work</string>
+    <string name="simple_author">by Marziah Karch</string>
+    <string name="author">Author:</string>
+    <string name="simple_author_2">Marziah Karch</string>
+    <string name="publisher">Publisher:</string>
+    <string name="simple_publisher_and_date">Apress, 2010-09-01</string>
+    <string name="description">Description:</string>
+    <string name="simple_description">Android is new, Android is open, and Android is fun. It’s also serious about business.
+        Android for Work shows you how to harness the power of Android to stay productive and take your office on the road.
+        This book also sheds light on the often daunting task of finding the right Android phone for the business user.</string>
+    <string name="simple_average_rating">3.5</string>
+    <string name="simple_rating_count">(18)</string>
+</resources>

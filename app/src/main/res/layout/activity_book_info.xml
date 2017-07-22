@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.books.BookDetailedInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:src="@drawable/small_thumbnail" />
+
+            <LinearLayout
+                android:id="@+id/textViews"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="4dp"
+                android:layout_toRightOf="@+id/image">
+
+                <com.example.android.books.CustomTextView
+                    android:id="@+id/title_text_view"
+                    style="@style/BookDetailsInfoStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/simple_title" />
+
+
+                <com.example.android.books.CustomTextView
+                    android:id="@+id/author_text_view"
+                    style="@style/BookDetailsInfoStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/simple_author_2" />
+
+
+                <com.example.android.books.CustomTextView
+                    android:id="@+id/publisher_and_date_text_view"
+                    style="@style/BookDetailsInfoStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/simple_publisher_and_date" />
+
+                <RatingBar
+                    android:id="@+id/rating_bar"
+                    style="@android:style/Widget.Holo.RatingBar.Indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="@string/simple_average_rating" />
+
+                <TextView
+                    android:id="@+id/rating_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="156dp"
+                    android:text="@string/simple_rating_count" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.example.android.books.CustomTextView
+            android:id="@+id/description_text_view"
+            style="@style/BookDetailsInfoStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simple_description" />
+
+    </LinearLayout>
+</ScrollView>

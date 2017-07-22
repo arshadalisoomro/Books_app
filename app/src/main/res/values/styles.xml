@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+    <!-- theme for author activities. -->
+    <style name="ListTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <!-- Style for book information -->
+    <style name="BookInfoStyle">
+
+        <!-- Set textAppearance to medium -->
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+
+        <!-- Set text style to bold -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for the Book information details -->
+    <style name="BookDetailsInfoStyle">
+
+        <!-- Set layout_margin to 4dp -->
+        <item name="android:layout_margin">4dp</item>
+
+        <!-- Set textAppearance to medium -->
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+
+        <!-- Set text color to black -->
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- SearchView style -->
+    <style name="SearchViewStyle">
+
+        <!-- Hint for edit text-->
+        <item name="android:queryHint">@string/search_hint</item>
+
+        <item name="android:layout_marginTop">60dp</item>
+
+        <item name="android:layout_marginLeft">8dp</item>
+
+        <item name="android:layout_marginRight">8dp</item>
+
+        <item name="android:fontFamily">monospace</item>
+    </style>
+</resources>
